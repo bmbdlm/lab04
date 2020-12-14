@@ -1,0 +1,28 @@
+/*
+CSS for the CS142 project #4 Problem #2 states component
+
+Since CSS uses a global name space for classes we should use names starting with
+cs142-states- here.
+*/
+.container {
+  margin-top: 150px;
+  padding-left: auto;
+  padding-right: auto;
+}
+.mujuud {
+  height: 100%;
+  width: auto;
+  justify-content: space-between;
+}
+.muj {
+  display: inline-block;
+  border: 1px solid;
+  width: 150px;
+  justify-content: space-around;
+  text-align: center;
+  height: 40px;
+  vertical-align: middle;
+  border-radius: 10px;
+  margin: 5px 5px 5px 5px;
+  background-color: #ffe2e2;
+}

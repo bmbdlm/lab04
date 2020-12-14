@@ -1,0 +1,89 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: poppins;
+  background-color: #f6f6f6;
+  color: #585858;
+}
+.sidebar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  background-color: #ffe2e2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+.sidebar a {
+  font-family: nunito;
+  height: 40px;
+  line-height: 43px;
+  margin: 0px;
+  padding: 0px 22px;
+  display: flex;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #585858;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.sidebar a:hover {
+  background-color: #ffc7c7;
+  color: #585858;
+  box-shadow: 2px 2px 20px #ffffff;
+  border-radius: 20px;
+  transition: all ease 0.2s;
+}
+
+.bursonin {
+  padding-top: 5%;
+}
+#inId {
+  width: 250px;
+  height: 40px;
+  border: #d8ac9c;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 0px 20px;
+}
+.muj {
+  color: #f6f6f6;
+  display: inline-block;
+  border: 1px solid;
+  width: 150px;
+  justify-content: space-around;
+  text-align: center;
+  height: 40px;
+  vertical-align: middle;
+  border-radius: 30px;
+  margin: 5px 5px 5px 5px;
+  background-color: #aaaaaa;
+}
+.button {
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  padding-top: 0;
+}
+.nahh {
+  padding-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nahh a {
+  text-decoration: none;
+  color: #585858;
+}
